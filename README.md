@@ -21,6 +21,26 @@ pip install -r requirements.txt
 ```python
 python main.py
 ```
+## Expected output
+
+### Example:
+
+Please enter the event details:
+
+Enter the name of the event: SOC event<br>
+Enter the date of the event (YYYY-MM-DD): 2024-09-24<br>
+Enter the time of the event (HH:MM AM/PM): 06:30 PM<br>
+Enter the origin country code (e.g., CO for Colombia): CO<br>
+
+Event Details:<br>
+  Event name: SOC event<br>
+  Original country (CO), date and time: 2024-09-24 06:30 PM -05
+
+Converted Times:<br>
+  05:30 PM | 🇨🇷, 🇬🇹, 🇭🇳, 🇸🇻<br>
+  06:30 PM | 🇨🇴, 🇵🇦, 🇵🇪<br>
+  07:30 PM | 🇩🇴, 🇵🇷, 🇵🇾, 🇻🇪<br>
+  08:30 PM | 🇦🇷, 🇺🇾<br>
 
 ## Contributing
 Guidelines for contributing to the project.
